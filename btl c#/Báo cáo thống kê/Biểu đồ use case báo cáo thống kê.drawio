@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
+  <diagram name="Trang-1" id="6O3WyN0ACbmJ9DIZcZKH">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KZK-cBn-YyZAJvQX1S4S-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZK-cBn-YyZAJvQX1S4S-1" target="KZK-cBn-YyZAJvQX1S4S-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZK-cBn-YyZAJvQX1S4S-1" value="Quản lý" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZK-cBn-YyZAJvQX1S4S-2" value="Báo cáo thống kê" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="335" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KZK-cBn-YyZAJvQX1S4S-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="390" y="257.5" width="144" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="KZK-cBn-YyZAJvQX1S4S-4" value="Thống kê nhân viên theo chức vụ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="KZK-cBn-YyZAJvQX1S4S-7">
+          <mxGeometry y="78" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KZK-cBn-YyZAJvQX1S4S-5" value="Xuất file báo cáo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="KZK-cBn-YyZAJvQX1S4S-7">
+          <mxGeometry x="2" y="155" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KZK-cBn-YyZAJvQX1S4S-6" value="Thống kê nhân viên theo phòng ban" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="KZK-cBn-YyZAJvQX1S4S-7">
+          <mxGeometry x="4" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KZK-cBn-YyZAJvQX1S4S-8" value="Extend" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="KZK-cBn-YyZAJvQX1S4S-6" target="KZK-cBn-YyZAJvQX1S4S-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="370" as="sourcePoint" />
+            <mxPoint x="370" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZK-cBn-YyZAJvQX1S4S-9" value="Extend" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="KZK-cBn-YyZAJvQX1S4S-4" target="KZK-cBn-YyZAJvQX1S4S-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="417" y="323" as="sourcePoint" />
+            <mxPoint x="317" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZK-cBn-YyZAJvQX1S4S-10" value="Extend" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="KZK-cBn-YyZAJvQX1S4S-5" target="KZK-cBn-YyZAJvQX1S4S-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="381" as="sourcePoint" />
+            <mxPoint x="330" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
